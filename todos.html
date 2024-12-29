@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todos</title>
+  <link rel="stylesheet" href="./style/styles.css">
+</head>
+<body>
+  <nav>
+    <h1>Mini Todo App</h1>
+    <a href="#" onclick="logout()">Logout</a>
+  </nav>
+
+  <main>
+    <section id="todo-section">
+      <h2>Your Todos</h2>
+      <form id="todo-form">
+        <input type="text" id="todo-input" placeholder="Enter a new todo" required>
+        <button type="submit">Add Todo</button>
+      </form>
+      
+      <ul id="todo-list">
+        <!-- Todos will be dynamically added here -->
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 Mini Todo App</p>
+  </footer>
+
+  <script src="./script/index.js"></script>
+  <script src="./script/navbar.js"></script>
+
+</body>
+</html>
